@@ -1,0 +1,1 @@
+protoc -I="C:\DevEnv\Project\Rust\RustRpcServer\proto" --csharp_out=".\csharp_out"  --grpc_out=".\csharp_out"   --plugin=protoc-gen-grpc="C:\DevEnv\Project\Git\grpc\cmake\build\Release\grpc_csharp_plugin.exe"    "helloworld.proto"
